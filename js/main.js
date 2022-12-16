@@ -1,4 +1,6 @@
 let a=parseInt(prompt("Enter a number"));
-for(i=a;i!=0;i--){
-    console.log(i);
+let sum=0;
+for(i=1;i<=a;i++){
+    sum+=2;
+    console.log(sum);
 }
